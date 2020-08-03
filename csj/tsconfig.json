@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "removeComments": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types", "typings"],
+    "baseUrl": ".",
+    "paths": {
+      "fastify-static": ["typings/fastify-static.d.ts"],
+      "fastify-cookie": ["typings/fastify-cookie.d.ts"],
+      "fastify-session": ["typings/fastify-session.d.ts"],
+      "fastify-websocket": ["typings/fastify-websocket.d.ts"]
+    },
+    "esModuleInterop": false // this is false by default, but specified for clarity
+  },
+  "exclude": ["node_modules"]
+}

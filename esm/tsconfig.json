@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "removeComments": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "fastify-session": ["../csj/typings/fastify-session.d.ts"]
+    },
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}
